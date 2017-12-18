@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Work Study Program | BMU</title>
+	<meta name="description" content="Work Study Program of BMU Home" />
+	<meta name="keywords" content="learn, earn, student, BMU, engineering, management" />
+	<meta name="author" content="MZed" />
+	<link rel="shortcut icon" href="images/bmulogo.png">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Anton|Kaushan+Script|Lato|Roboto" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/customstyle.css" />
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
+
+<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">BMU Work Study Program</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#category">Category</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign Up<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+               <form action="insert_in_db.php" method="post" class="form-signup">
+              <label for="name" class="sr-only">Name</label>
+              <input type="text" name="name" id="inputName" class="form-control" placeholder="Name" required autofocus>
+              <label for="inputEmail" class="sr-only">Email address</label>
+              <input type="email" name="username" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+              <label for="inputPassword" class="sr-only">Password</label>
+              <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+             
+              <input type="radio" name="type" value="Student" checked> Student<br>
+              <input type="radio" name="type" value="Faculty" > Faculty<br>
+             
+              <button class="btn btn-lg btn-primary btn-block" value="submit">Sign Up</button>
+            </form>
+              </ul>
+            </li>
+            <li><a href="signin.html">Student Sign In</a></li>
+            <li><a href="signinfaculty.php">Faculty Sign in</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<!-- Easy as hell -->
+<div id="home" class="hero">
+<h1></h1>
+<div class="centered">
+<img src="images/bmulogo.png" alt="">
+<h1>BMU</h1>
+<!-- <p>Work Study Program</p> -->
+</div>
+<div id="block" style="position: absolute; z-index: -1; top: 0px; left: 0px; bottom: 0px; right: 0px; overflow: hidden; background-size: cover; background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center; 
+    background-image: none;" data-vide-bg="video/bmuni", poster: "images/bmu.jpg", data-vide-options="posterType: jpg, loop=false,  muted: true"></div>
+</div>
+
+<div id="about-section">
+      <div class="container ab">
+        <h2>About Us</h2>
+        <p>Work-study Program enables students of Bml Munjal University to do a paid work along with their studies. Students are provided with various job offers from different departments of this universities like IT department, accounts department, registrar office, marketing, library, registration team etc. Aim of this program is to nurture students of our university by enhancing advance and disseminate practically-oriented knowledge as by learning and working they will get experience which will help in future when they join any organization.
+        </p>
+      </div>
+    </div>
+
+    <div id="about-sec">
+      <div class="container">
+        <p><img src="images/bmulogo.png" alt="Brand"></p>
+        <h3>We are providing paltofrm to earn while you learn</h3>
+        <p>We believe that when the right people comes together , creativity thives,<br>
+        opportunities appear and future brightens</p>
+        <!-- <p><a href="#"><b>KNOW MORE ></b></a></p> -->
+      </div>
+    </div>
+
+    <div id="people">
+      <div class="container">
+        <img src="images/bmustudents.jpg" class="img-responsive" alt="">
+        <div class="pinfo">
+          <h2>We Understand Students.</h2>
+          <p>Positive energy can transform an organization and all starts<br> with the right people with the right work (That's where we come in)</p>
+          <!--<p><a href="#" class="btn btn-lg btn-outline">learn more</a></p> -->
+        </div>
+      </div>
+    </div>
+
+
+    <div id="category">
+      <div class="container cat">
+        <h2>Category</h2>
+        </form>
+        <div class="row cat1">
+          <div class="col-md-4 sec1 ">
+          <div class="img">
+            <img src="images/management.png" class="img-responsive center-block" alt="Management">
+            
+            <p>Management</p>
+            </div>
+            <div class="info">
+              <br><br><br></a> <option>Event Management</option></li>
+             <li> <option>HR Management</option></li>
+             <li> <option>Talent Management</option></li>
+             <li> <option>College Fest</option></li>
+            </div>
+          </div>
+          <div class="col-md-4 sec2">
+          <div class="img">
+            <img src="images/technical.png" class="img-responsive center-block" alt="Technical">
+            <p>Technical</p>
+            </div>
+            <div class="info">
+               
+              <br><br><br><li> <option>Accounting</option></li>
+             <li> <option>Registerations</option></li>
+             <li> <option>Production</option></li>
+             <li> <option>Sponsorships</option></li>
+             <li> <option>Designing</option></li>
+
+            </div>
+          </div>
+          <div class="col-md-4 sec3">
+          <div class="img">
+            <img src="images/social.png" class="img-responsive center-block" alt="Social">
+            <p>Others</p>
+            </div>
+            <div class="info">
+            <br><br><br>
+
+             <li> <option>Club Activities</option></li>
+             <li> <option>Student Initiatives</option></li>
+             <li> <option>University Representation</option></li>
+
+            </div></div>
+            <p><a href="jobposting.php" class="btn btn-lg btn-outline">Job Postings</a></p> 
+          
+        </div>
+        <!-- <hr> -->
+        <!-- <div class="row cat2">
+          <div class="col-md-4 sec1">
+          <div class="img">
+            <img src="images/saas.png" class="img-responsive center-block" alt="SaaS">
+            <p>In-Situ</p>
+            </div>
+            <div class="info">
+              <p> when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            </div>
+          </div>
+          <div class="col-md-4 sec2">
+          <div class="img">
+            <img src="images/qsr.png" class="img-responsive center-block" alt="Restaurant">
+            <p>Ex-Situ</p>
+            </div>
+            <div class="info">
+              <p> when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            </div>
+          </div>
+          <div class="col-md-4 sec3">
+          <div class="img">
+            <img src="images/iot.png" class="img-responsive center-block" alt="IOT">
+            <p>Internet</p>
+            </div>
+            <div class="info">
+              <p> when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+    <div class="container ">
+        <h2><span>Contact</span> Us</h2>
+        <div class="row cont ">
+            <div class="col-md-4 detail ">
+                <p>+91-9006543210</p>
+                <p>workstudy@gmail.com</p>
+            </div>
+            <div class="col-md-7 col-md-offset-1 ">
+
+            <form class="form-inline " action="contactus.php" method="post">
+            <div for="name2" class="form-group col-md-4 ">
+                <input type="text " class="form-control " name="name2" placeholder="Name "> </input>
+            </div>
+            <div class="form-group col-md-4 ">
+                <input type="email " class="form-control " name="email2" placeholder="you@email.com "></input>
+            </div>
+            <div class="form-group col-md-4 ">
+                <input type="text " class="form-control " name="subject" placeholder="Subject "></input>
+            </div>
+       
+            <div class="form-group col-md-12">
+                <textarea class="form-control " name="message" rows="3 " placeholder="Message "></textarea>
+            </div>
+            <div class="col-md-4" >
+            <button class="btn btn-lg btn-primary btn-block" value="submit">Submit Query</button>
+             </div>
+        </form>
+            </div>
+        </div>
+	  </div>
+	</div>
+
+
+    <footer>
+      <div class="foot container">
+        <div class="row">
+              <div class="col-md-6 left-fut">
+                <p>&copy 2016 BMU Work Study Program | Designed by <a href="#">MZed</a> and <a href="#">Team</a></p>
+              </div>
+              <div class="col-md-6 right-fut">
+                <p>All Rights Reserved</p>
+              </div>
+        </div>
+      </div>
+    </footer>
+
+<!-- <br><br>
+
+<div id="block2" style="width: 100%; height: 500px;"
+  data-vide-bg="mp4: video/ocean, webm: video/ocean, ogv: http://vodkabears.github.io/vide/video/ocean, poster: video/ocean"
+  data-vide-options="position: 0% 50%">
+</div> -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../libs/jquery/dist/jquery.min.js"><\/script>')</script>
+<script src="js/jquery.vide.js"></script>
+<script>
+//  $(document).ready(function () {
+//    $('#block').vide('video/ocean'); // Non declarative initialization
+//
+//    var instance = $('#block').data('vide'); // Get the instance
+//    var video = instance.getVideoObject(); // Get the video object
+//    instance.destroy(); // Destroy instance
+//
+//    $('#block2').vide({
+//      'mp4': 'video/ocean',
+//      'webm': 'video/ocean',
+//      'ogv': 'video/ocean',
+//      'poster': 'video/ocean',
+//    });
+//  });
+</script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
